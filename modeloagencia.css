@@ -1,0 +1,316 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0; 
+    word-spacing: 40px;   
+}
+
+.logo img {
+    height: 100px; /* Ajuste a altura conforme necessário */
+}
+
+/*.logo2 img {
+    width: 10; 
+} */ 
+
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.navigation ul li {
+    display: inline;
+    margin-right: 20px;
+} 
+
+.navigation ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image {
+    width: 350px;
+    height: 350px; 
+    top: 290px;
+    left: 181px;  
+    gap: 0px;
+    border: 9px 0px 0px 0px;
+    opacity: 0px;
+    padding: 10%;
+
+    
+}
+
+.reserve {
+    flex: 1;
+    padding: 20px; 
+    margin-left: 20px; 
+    margin-right: 50px;  
+   
+}
+
+.reserve img {
+    width: 300px; /* Define a largura desejada */
+    height: auto; /* Mantém a proporção original da imagem */
+    vertical-align: middle;   
+}
+
+  
+.reserve h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.reserve p {
+    margin-bottom: 20px;
+}
+
+.botao {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 20px;   
+}
+
+.botao:hover {
+    background-color: #0056b3;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.retangulo {
+    /*width: 934.86px;
+    height: 262.93px;
+    top: 525.86px;
+    gap: 0px;
+    opacity: 0;*/
+    margin-top: 30px;
+    background:#fbc2eb; 
+}
+
+.imagemvideo{
+    margin: 0 auto;
+    
+    width: 800px;
+    height: 347.16px;
+    top: 6500px;
+    left: 133px;
+    gap: 0px;
+    border-radius: 6.82px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* ou qualquer altura desejada */
+}
+
+.centralizado {
+    text-align: center;
+}
+
+.imagens {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Define duas colunas */
+    /*justify-content: center; /* ou outro valor de alinhamento conforme necessário */
+    gap: 10px; /* Ajuste o valor conforme necessário */ 
+    /*flex-wrap: wrap; /* Permite que os itens quebrem linha, se necessário */
+    align-items: center; /* Centraliza os itens verticalmente */
+}
+
+.paodeaçucar,
+.asadelta, .paqueta, .escalada { 
+    margin: 10px; /* Ajuste o valor conforme necessário */
+}
+
+.imagens div{
+    margin: 5px; /* Ajuste o valor conforme necessário para adicionar espaço ao redor de cada div */
+}
+
+.imagens > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagens img {
+    max-width: 100%; /* Garante que as imagens não excedam a largura dos contêineres */
+    height: auto; /* Mantém a proporção das imagens */
+}
+
+/*quem somos */
+
+.quemsomos {
+    margin-top: 640px; /* Espaçamento acima da seção 'Quem somos' */
+    margin-bottom: 30px;
+    padding: 20px; /* Espaçamento interno para a seção */
+}
+
+h2 {
+    margin-top:400px ;
+    text-align: center;
+    margin-left: 100px;
+    
+}
+
+
+/*.quem-somos {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+    margin-left: 300px;
+}*/
+
+/*comentarios*/
+
+.comentarios {
+    margin-top: 1800px;
+    
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Permite que os itens sejam empilhados verticalmente */
+    justify-content: center;
+    align-items: center;
+}
+
+/*.comentarios .fundo {
+    width: 100%;
+    height: auto;
+}*/
+    
+
+.imagem-sobreposta {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-sobreposta img {
+    max-width: 700px; /* Ajuste conforme necessário */
+    height: auto;
+    
+}
+
+
+.imagem-abaixo img {
+    margin-top: 2px;
+    max-width: 100%; /* Ajuste conforme necessário */
+    height: auto;
+    
+}
+
+/*tabela*/
+.tabela{
+    margin-top: 400px;
+   
+
+}
+
+.flex { 
+    margin-top: 800px;
+    /* display: flex;
+    flex-wrap: wrap;
+    max-width: 800px; 
+    margin: 0 auto; */
+
+}
+
+.flex > div { 
+        flex: 1 1 200px;
+        margin: 10px;
+
+}   
+td, th {
+    border-collapse:separate;
+    background-color:darkgrey;
+    padding: 5px; 
+  }
+
+  /*formulario*/
+
+  .contato {
+    margin-top: 100px; /* Espaçamento acima da seção 'Quem somos' */
+   padding: 0%; /* Espaçamento interno para a seção */
+  } 
+
+
+.mapa {
+    margin-top: 780px;
+    margin-right: 800px;
+}
+
+.mapa img {
+    width: 100%; /* Define a largura total do contêiner */
+    height: 300px;/* Mantém a proporção da imagem */
+    max-width: auto; /* Define um tamanho máximo, ajuste conforme necessário */
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0; /* Adiciona espaçamento acima e abaixo do footer */
+    /*background-color: #f1f1f1; /* Ajuste conforme necessário */
+    margin-top: 500px; /* Espaçamento acima do footer */
+}
+
+.footer nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        gap: 200px; /* Espaçamento entre os itens */
+}
+
+.footer nav ul li {
+    display: inline;
+    
+} 
+
+.footer nav ul li a {
+    text-decoration: none;
+    color: black;
+    margin-top: 0;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.footer nav ul li a:hover {
+    background-color: #ddd;
+}
